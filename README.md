@@ -1,24 +1,16 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Install dependencies using
+mandator to have imagemagick to do image manipulations
 
-Things you may want to cover:
+scripts/initial.sh ----------> installs all dependencies and bundle
 
-* Ruby version
+Run server using
 
-* System dependencies
+scripts/server.sh -----------> runs the server using current rails version.
 
-* Configuration
 
-* Database creation
+ruby version: 2.4.1
+bundler verion: 1.16.1
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+use above version to install all gems without any issues.
